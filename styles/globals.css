@@ -1,0 +1,36 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{
+@apply min-h-full h-full;
+}
+#__next{
+@apply min-h-full h-full
+}
+
+
+.theme-startup {
+  --color-primary: #10A37F;
+ /* Text*/
+  --color-title: #2d333a;
+  --color-title-muted: #6E7893;
+  /* Sidebar*/
+  --color-sidebar-head:#BBBFCB;
+  --color-sidebar-item-hover : #F8F9FB; 
+/* Borders*/
+--color-border-light: #EDF1F4;
+/* Status*/
+--color-danger : #ff5252;
+/* Dashboard*/
+--color-dashboard-bg:#EFF3F6;
+
+
+
+
+} 
+
+.theme-orange {
+  --color-primary: red;
+} 
